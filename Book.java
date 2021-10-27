@@ -9,7 +9,7 @@
 class Book
 {
     // The fields.
-    private String author;
+    private String auth;
     private String title;
 
     /**
@@ -18,7 +18,7 @@ class Book
      */
     public Book(String bookAuthor, String bookTitle)
     {
-        author = bookAuthor;
+        auth = bookAuthor;
         title = bookTitle;
     }
 
